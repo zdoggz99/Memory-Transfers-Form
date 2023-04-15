@@ -1,0 +1,160 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-bottom: 5rem;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+body input::-webkit-outer-spin-button,
+body input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body input[type=number] {
+  -moz-appearance: textfield;
+}
+body input {
+  font-size: x-large;
+}
+body .header {
+  padding: 2rem 3rem;
+  background-color: #00008B;
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+}
+body .header .text {
+  font-size: x-large;
+}
+body .header .left {
+  display: flex;
+  flex-direction: column;
+}
+body .header .left .memTran {
+  font-size: 48px;
+}
+body .header .right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+body .header .right .hours .large {
+  font-size: x-large;
+}
+body .header .right .contact {
+  width: 30%;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+body form .formDiv {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+body form .formDiv label {
+  width: 12rem;
+}
+body form .formHeader {
+  font-size: 40px;
+  align-self: center;
+  padding-top: 3rem;
+}
+body form .mediaTypeHeader {
+  font-size: 30px;
+  -webkit-text-decoration: underline solid 3px black;
+          text-decoration: underline solid 3px black;
+  align-self: center;
+}
+body form label {
+  font-size: x-large;
+  text-align: right;
+}
+body form div {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+body form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+body form .tapes,
+body form .audio,
+body form .pictures,
+body form .film {
+  width: 26%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+body form .tapes .tapeType,
+body form .tapes .audioType,
+body form .tapes .pictureType,
+body form .tapes .filmType,
+body form .audio .tapeType,
+body form .audio .audioType,
+body form .audio .pictureType,
+body form .audio .filmType,
+body form .pictures .tapeType,
+body form .pictures .audioType,
+body form .pictures .pictureType,
+body form .pictures .filmType,
+body form .film .tapeType,
+body form .film .audioType,
+body form .film .pictureType,
+body form .film .filmType {
+  padding-left: 4rem;
+  align-self: flex-start;
+}
+body form .tapes input,
+body form .audio input,
+body form .pictures input,
+body form .film input {
+  width: 3rem;
+  text-align: center;
+}
+body form .film {
+  width: 20%;
+}
+body form .otherMedia {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+body form .otherMedia .otherMediaType {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20%;
+}
+body form .otherMedia .otherMediaType input {
+  width: 2rem;
+  text-align: center;
+}
+body .signHere {
+  font-size: large;
+}
+body .largeText {
+  font-size: xx-large;
+  text-align: center;
+}
+body .hiddenNotes {
+  padding-top: 3rem;
+  display: none;
+  flex-direction: column;
+  gap: 40px;
+}
+body #hiddenSignature {
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}/*# sourceMappingURL=newStyles.css.map */

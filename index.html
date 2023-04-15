@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newStyles.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <div class="memTran">Memory Transfers</div>
+            <div class="text">www.memorytransfers.com</div>
+            <div class="text">info@memoryTransfers.com</div>
+        </div>
+        <div class="right">
+            <div class="hours">
+                <div class="large">Hours</div>
+                <div class="text">Tue-Thu: 10am - 6pm</div>
+                <div class="text">Fri: 11am - 5pm</div>
+                <div class="text">Sat: 10am - 2pm</div>
+            </div>
+            <div class="contact">
+                <div class="text">5726 West Alexis Rd. Sylvania OH, 43560</div>
+                <div class="text">Phone: 419-517-0152</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customerInfo">
+        <form>
+
+            <div class="formHeader">Contact Info</div>
+
+            <div class="formDiv">
+                <label>Name/Company:</label>
+                <input type="text" required name="name" id="name">
+            </div>
+
+            <div class="formDiv">
+                <label>Street:</label>
+                <input type="text" required name="street">
+            </div>
+
+            <div class="formDiv">
+                <label>City:</label>
+                <input type="formDiv" required name="city">
+            </div>
+
+            <div class="formDiv">
+                <label>State:</label>
+                <input type="formDiv" required name="State">
+            </div>
+
+            <div class="formDiv">
+                <label>Zip Code:</label>
+                <input type="text" required name="zipCode">
+            </div>
+
+            <div class="formDiv">
+                <label>Phone Number:</label>
+                <input type="text" required name="phoneNumber">
+            </div>
+
+            <div class="formDiv">
+                <label>Email:</label>
+                <input type="text" name="email">
+            </div>
+
+            <div class="formHeader">Media To Be Transferred</div>
+
+            <div class="mediaTypes">
+                <div class="tapes">
+                    <div class="mediaTypeHeader">Tapes</div>
+                    <div class="tapeType">
+                        <input type="number" name="vhs">
+                        <label>VHS</label>
+                    </div>
+                    <div class="tapeType">
+                        <input type="number" name="vhsc">
+                        <label>VHS-C</label>
+                    </div>
+                    <div class="tapeType">
+                        <input type="number" name="8mmTape">
+                        <label>8MM Tapes</label>
+                    </div>
+                    <div class="tapeType">
+                        <input type="number" name="6mmTape">
+                        <label>6MM Tapes</label>
+                    </div>
+                    <div class="tapeType">
+                        <input type="number" name="beta">
+                        <label>Beta</label>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="mediaTypeHeader">Audio</div>
+                    <div class="audioType">
+                        <input type="number" name="record">
+                        <label>Record/LP</label>
+                    </div>
+                    <div class="audioType">
+                        <input type="number" name="cassette">
+                        <label>Cassette</label>
+                    </div>
+                    <div class="audioType">
+                        <input type="number" name="reelToReel">
+                        <label>Reel To Reel</label>
+                    </div>
+                </div>
+                <div class="pictures">
+                    <div class="mediaTypeHeader">Pictures</div>
+                    <div class="pictureType">
+                        <input type="number" name="photos">
+                        <label>Photos</label>
+                    </div>
+                    <div class="pictureType">
+                        <input type="number" name="album">
+                        <label>Photo Albums</label>
+                    </div>
+                    <div class="pictureType">
+                        <input type="number" name="slides">
+                        <label>Slides</label>
+                    </div>
+                    <div class="pictureType">
+                        <input type="number" name="negatives">
+                        <label>Negatives</label>
+                    </div>
+                </div>
+                <div class="film">
+                    <div class="mediaTypeHeader">Film</div>
+                    <div class="filmType">
+                        <input type="number" name="8mmFilm">
+                        <label>8MM</label>
+                    </div>
+                    <div class="filmType">
+                        <input type="number" name="16mmFilm">
+                        <label>16MM</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mediaTypeHeader">Other</div>
+
+            <div class="otherMedia">
+                <div class="otherMediaType">
+                    <input type="number" name="dvd">
+                    <label>DVD</label>
+                </div>
+                <div class="otherMediaType">
+                    <input type="number" name="flashdrive">
+                    <label>Flashdrive</label>
+                </div>
+                <div class="otherMediaType">
+                    <input type="number" name="sdCard">
+                    <label>SD Card</label>
+                </div>
+                <div class="otherMediaType">
+                    <input type="number" name="cd">
+                    <label>CD</label>
+                </div>
+                <div class="otherMediaType">
+                    <input type="number" name="cellPhone">
+                    <label>Cell Phone</label>
+                </div>
+
+                <div class="otherMediaType">
+                    <input type="number" name="other">
+                    <label>Other</label>
+                </div>
+            </div>
+
+            <div id="hiddenSignature">
+                <div class="formHeader">Please Read & Sign Below</div>
+                <div class="disclamer">I hereby authorize Memory Transfers to transfer my media to a digital format. The Customer acknowledges that all material submitted for transfer 
+                    is not in violation of any copyright laws, and that any copyrighted material is accompanied by a written release form. Customer agrees that the liability of 
+                    Memory Transfers and its employees, for any losses or damages of any kind or nature to the customers film, tope, or other material, is limited to the cost of 
+                    replacing such film, tape, or other material with blank tape or unused material. Customer also agrees that our company and its employees shall not otherwise 
+                    be liable to the customer for any loss or damage of any kind or nature, whether direct, incidental, consequential, natural disaster, or otherwise. I am 
+                    responsible for all services provided</div>
+                <div class="signHere">Authorized Signature  _____________________________________________________________________________</div>
+            </div>
+                <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="hiddenNotes" id="hiddenNotes">
+        <div class="Notes">
+            <div class="largeText">Technician Notes</div>
+            <div class="largeText wrap">_______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________</div>
+        </div>
+
+        <div class="Notes">
+            <div class="largeText">Title Notes</div>
+            <div class="largeText wrap">_______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________
+            _______________________________________________________________________________</div>
+        </div>
+
+        <div class="Notes">
+            <div class="largeText">LM/TT ______:______  Date:_____/_____/_____ 
+                Invoice #: _____ Total: _____
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

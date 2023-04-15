@@ -1,0 +1,146 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-bottom: 5rem;
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    input {
+        font-size: x-large;
+    }
+    .header {
+        padding: 2rem 3rem;
+        background-color: #00008B;
+        display: flex;
+        justify-content: space-between;
+        color: azure;
+        .text {
+            font-size: x-large;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            .memTran {
+                font-size: 48px;
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: flex-end;
+            gap: 3rem;
+            .hours {
+                .large {
+                    font-size: x-large;
+                }
+            }
+            .contact {
+                width: 30%;
+            }
+        }
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        .formDiv {
+            width: 100%;
+            display: flex;
+            gap: 1rem;
+            label {
+                width: 12rem;
+            }
+        }
+        .formHeader {
+            font-size: 40px;
+            align-self: center;
+            padding-top: 3rem;
+        }
+        .mediaTypeHeader {
+            font-size: 30px;
+            text-decoration: underline solid 3px black;
+            align-self: center;
+        }
+        label {
+            font-size: x-large;
+            text-align: right;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid black;
+            width: 100%;
+        }
+        .tapes,
+        .audio,
+        .pictures,
+        .film {
+            width: 26%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            align-self: flex-start;
+            .tapeType,
+            .audioType,
+            .pictureType,
+            .filmType {
+                padding-left: 4rem;
+                align-self: flex-start;
+            }
+            input {
+                width: 3rem;
+                text-align: center;
+            }
+        }
+        .film {
+            width: 20%;
+        }
+        .otherMedia {
+            display: flex;
+            justify-content: space-evenly;
+            gap: .5rem;
+            .otherMediaType {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 20%;
+                input {
+                    width: 2rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .signHere {
+        font-size: large;
+    }
+    .largeText {
+        font-size: xx-large;
+        text-align: center;
+    }
+    .hiddenNotes {
+        padding-top: 3rem;
+        display: none;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #hiddenSignature {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
